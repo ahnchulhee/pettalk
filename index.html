@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PetTalk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">    
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to PetTalk</h1>
+        <p class="welcome-header__text">If you have a PetTalk Account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="Email or phone number" />
+        <input name="password" required type="password" placeholder="Password" />
+        <input type="submit" value="Log In" />
+        <a href="#">Find PetTalk Account or Password</a>
+    </form>
+
+    <div id="splash-screen">
+        <i class="fas fa-comment"></i>
+        <span>PetTalk</span>
+    </div>
+
+    <div id="no-pc">
+        <span class="no-pc__title">해당 화면은 모바일창 크기에 맞춰 제작되었습니다</span>
+        <span class="no-pc_subtitle">화면의 가로크기를 줄여주세요</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/edca8c4219.js" 
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
